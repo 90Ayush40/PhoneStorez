@@ -11,6 +11,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Model from './components/Model';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
          <Default />
        </Route>
      </Switch>
+     <Model />
    </React.Fragment>
   );
 }
